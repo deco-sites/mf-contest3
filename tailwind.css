@@ -20,6 +20,10 @@
     -moz-appearance: textfield;
     appearance: textfield;
   }
+
+  input[type=date]::-webkit-calendar-picker-indicator {
+    @apply bg-white rounded-full p-2 ml-4
+  }
 }
 
 @layer components {
