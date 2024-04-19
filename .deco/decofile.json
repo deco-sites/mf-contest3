@@ -383,12 +383,22 @@
               "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/5881/6782ca34-0637-4cd8-bb19-8a1b17630851",
               "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/5881/6782ca34-0637-4cd8-bb19-8a1b17630851"
             }
+          },
+          {
+            "name": "Vale das Borboleta",
+            "image": {
+              "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/5881/4175a752-5787-4fc7-95d5-aef37b532a1d",
+              "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/5881/4175a752-5787-4fc7-95d5-aef37b532a1d"
+            }
           }
         ]
       },
       {
         "__resolveType": "site/sections/UI/Spacing.tsx",
         "spacing": "medium"
+      },
+      {
+        "__resolveType": "site/sections/Footer.tsx"
       }
     ],
     "__resolveType": "website/pages/Page.tsx"
