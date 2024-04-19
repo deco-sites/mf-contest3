@@ -2,16 +2,20 @@ import { ImageWidget } from "apps/admin/widgets.ts";
 import { Picture, Source } from "apps/website/components/Picture.tsx";
 import Schedule from "site/islands/Schedule.tsx";
 
+/**@title {{{text}}} */
+export interface Text {
+  text: string;
+  emphasis?: boolean;
+}
+
 export interface Props {
   image?: {
     desktop?: ImageWidget;
     mobile?: ImageWidget;
     alt?: string;
   };
-  title?: {
-    text: string;
-    emphasis?: boolean;
-  }[];
+
+  title?: Text[];
   subtitle?: string;
 }
 
@@ -39,7 +43,7 @@ export default function Hero({
       text: " os mistérios e lendas",
     },
   ],
-  subtitle = "Venha conhecer São Tomé das Letras!",
+  subtitle = "Venha conhecer São Thomé das Letras!",
 }: Props) {
   return (
     <section class="container mx-auto py-1">

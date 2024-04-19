@@ -46,4 +46,24 @@
   .scrollbar-none::-webkit-scrollbar {
     display: none;
   }
+
+  .custom-scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: #161616 #ffffff;
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar {
+    /* Customize the scrollbar width */
+    width: 3px;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-track {
+    /* Customize the scrollbar track */
+    @apply bg-white
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    /* Customize the scrollbar thumb */
+    @apply bg-primary rounded border-none
+  }
 }
