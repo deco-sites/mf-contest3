@@ -228,7 +228,7 @@
             "text": "Destinos"
           },
           {
-            "text": "Experiências"
+            "text": "Voo Panorâmico"
           },
           {
             "text": "Planeje"
@@ -292,7 +292,10 @@
       },
       {
         "__resolveType": "site/sections/UI/Spacing.tsx",
-        "spacing": "large"
+        "spacing": "small"
+      },
+      {
+        "__resolveType": "site/sections/content/ContentIframe.tsx"
       }
     ],
     "__resolveType": "website/pages/Page.tsx"
