@@ -253,6 +253,42 @@
             "emphasis": true
           }
         ]
+      },
+      {
+        "__resolveType": "site/sections/UI/Spacing.tsx",
+        "spacing": "small"
+      },
+      {
+        "__resolveType": "site/sections/content/Destinations.tsx",
+        "cards": [
+          {
+            "image": {
+              "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/5881/978c65f0-3a0f-412b-93a3-cfd88a695fc4",
+              "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/5881/978c65f0-3a0f-412b-93a3-cfd88a695fc4",
+              "alt": "Casa da pirâmide "
+            },
+            "name": "Casa da pirâmide ",
+            "locationUrl": "https://www.google.com/maps/place/Pir%C3%A2mide+S%C3%A3o+Tom%C3%A9+das+Letras/@-21.7247946,-44.9830139,15z/data=!4m2!3m1!1s0x0:0x1630f48744a06fb6?sa=X&ved=1t:2428&ictx=111"
+          },
+          {
+            "image": {
+              "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/5881/62722d0a-de41-46ce-854d-5f5ed14d5942",
+              "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/5881/62722d0a-de41-46ce-854d-5f5ed14d5942",
+              "alt": "Pedra da Bruxa"
+            },
+            "name": "Pedra da Bruxa",
+            "locationUrl": "https://www.google.com/maps/place/Pedra+da+Bruxa+S%C3%A3o+Thom%C3%A9+das+Letras/@-21.7235534,-44.9849861,17z/data=!3m1!4b1!4m6!3m5!1s0x9fd56ac45ce461:0xa0ce6d143025f0a4!8m2!3d-21.7235534!4d-44.9824112!16s%2Fg%2F1ptw_tv88?entry=ttu"
+          },
+          {
+            "name": "Cachoeira Antares",
+            "locationUrl": "https://www.google.com/maps/place/Cachoeira+Antares/@-21.7907037,-45.0306768,15z/data=!3m1!4b1!4m6!3m5!1s0x94cb2b184604349b:0xdb939de321768313!8m2!3d-21.7907044!4d-45.0203771!16s%2Fg%2F11b8yfv_75?entry=ttu",
+            "image": {
+              "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/5881/f5b1e555-a55a-40fc-8128-383d2c18e987",
+              "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/5881/f5b1e555-a55a-40fc-8128-383d2c18e987",
+              "alt": "Cachoeira Antares"
+            }
+          }
+        ]
       }
     ],
     "__resolveType": "website/pages/Page.tsx"
