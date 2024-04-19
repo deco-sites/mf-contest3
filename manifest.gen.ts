@@ -2,33 +2,33 @@
 // This file SHOULD be checked into source version control.
 // This file is automatically updated during development when running `dev.ts`.
 
-import * as $$$$$$$$$$$0 from "./apps/decohub.ts";
-import * as $$$$$$$$$$$1 from "./apps/site.ts";
-import * as $$$$$$5 from "./sections/content/ContentIframe.tsx";
-import * as $$$$$$6 from "./sections/content/ContentMap.tsx";
-import * as $$$$$$7 from "./sections/content/Destinations.tsx";
-import * as $$$$$$8 from "./sections/content/Hero.tsx";
-import * as $$$$$$0 from "./sections/Footer.tsx";
-import * as $$$$$$1 from "./sections/Header/index.tsx";
-import * as $$$$$$2 from "./sections/ItWorks.tsx";
-import * as $$$$$$3 from "./sections/Theme/Theme.tsx";
-import * as $$$$$$4 from "./sections/UI/Spacing.tsx";
+import * as $$$$$$$$$$$$0 from "./apps/decohub.ts";
+import * as $$$$$$$$$$$$1 from "./apps/site.ts";
+import * as $$$$$$$5 from "./sections/content/ContentIframe.tsx";
+import * as $$$$$$$6 from "./sections/content/ContentMap.tsx";
+import * as $$$$$$$7 from "./sections/content/Destinations.tsx";
+import * as $$$$$$$8 from "./sections/content/Hero.tsx";
+import * as $$$$$$$0 from "./sections/Footer.tsx";
+import * as $$$$$$$1 from "./sections/Header/index.tsx";
+import * as $$$$$$$2 from "./sections/ItWorks.tsx";
+import * as $$$$$$$3 from "./sections/Theme/Theme.tsx";
+import * as $$$$$$$4 from "./sections/UI/Spacing.tsx";
 
 const manifest = {
   "sections": {
-    "site/sections/content/ContentIframe.tsx": $$$$$$5,
-    "site/sections/content/ContentMap.tsx": $$$$$$6,
-    "site/sections/content/Destinations.tsx": $$$$$$7,
-    "site/sections/content/Hero.tsx": $$$$$$8,
-    "site/sections/Footer.tsx": $$$$$$0,
-    "site/sections/Header/index.tsx": $$$$$$1,
-    "site/sections/ItWorks.tsx": $$$$$$2,
-    "site/sections/Theme/Theme.tsx": $$$$$$3,
-    "site/sections/UI/Spacing.tsx": $$$$$$4,
+    "site/sections/content/ContentIframe.tsx": $$$$$$$5,
+    "site/sections/content/ContentMap.tsx": $$$$$$$6,
+    "site/sections/content/Destinations.tsx": $$$$$$$7,
+    "site/sections/content/Hero.tsx": $$$$$$$8,
+    "site/sections/Footer.tsx": $$$$$$$0,
+    "site/sections/Header/index.tsx": $$$$$$$1,
+    "site/sections/ItWorks.tsx": $$$$$$$2,
+    "site/sections/Theme/Theme.tsx": $$$$$$$3,
+    "site/sections/UI/Spacing.tsx": $$$$$$$4,
   },
   "apps": {
-    "site/apps/decohub.ts": $$$$$$$$$$$0,
-    "site/apps/site.ts": $$$$$$$$$$$1,
+    "site/apps/decohub.ts": $$$$$$$$$$$$0,
+    "site/apps/site.ts": $$$$$$$$$$$$1,
   },
   "name": "site",
   "baseUrl": import.meta.url,
