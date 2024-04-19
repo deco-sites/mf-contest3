@@ -23,7 +23,7 @@ function Card({ image, name, locationUrl }: Card) {
   return (
     <div class="flex-none w-2/3 md:w-1/3 pr-5">
       <div class="flex relative rounded-xl overflow-hidden">
-        <Picture preload class="w-full">
+        <Picture class="w-full">
           <Source
             media="(max-width: 327px)"
             src={image?.mobile ?? ""}
@@ -41,6 +41,7 @@ function Card({ image, name, locationUrl }: Card) {
             sizes="(max-width: 640px) 100vw, 30vw"
             src={image?.mobile ?? ""}
             alt={image?.alt}
+            loading="lazy"
           />
         </Picture>
         <article class="absolute top-0 left-0 w-full h-full overflow-hidden">

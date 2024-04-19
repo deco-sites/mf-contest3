@@ -108,7 +108,7 @@ export default function MapComponent({ travelRoutes = [] }: Props) {
       <div class="w-2/5 flex flex-col overflow-y-auto custom-scrollbar max-h-[500px] gap-6">
         {travelRoutes?.map(({ image, name }) => (
           <div class="flex items-center rounded-lg overflow-hidden gap-5 shadow-sm min-h-[110px] max-h-[110px] pr-6">
-            <Picture preload class="w-full max-w-[256px]  rounded-lg">
+            <Picture class="w-full max-w-[256px]  rounded-lg">
               <Source
                 media="(max-width: 327px)"
                 src={image?.mobile ?? ""}
@@ -126,6 +126,7 @@ export default function MapComponent({ travelRoutes = [] }: Props) {
                 sizes="(max-width: 640px) 100vw, 30vw"
                 src={image?.mobile ?? ""}
                 alt={image?.alt}
+                loading="lazy"
               />
             </Picture>
             <div class="flex flex-col gap-3">
