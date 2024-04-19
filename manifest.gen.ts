@@ -4,8 +4,9 @@
 
 import * as $$$$$$$$$$$0 from "./apps/decohub.ts";
 import * as $$$$$$$$$$$1 from "./apps/site.ts";
-import * as $$$$$$5 from "./sections/content/Destinations.tsx";
-import * as $$$$$$6 from "./sections/content/Hero.tsx";
+import * as $$$$$$5 from "./sections/content/ContentIframe.tsx";
+import * as $$$$$$6 from "./sections/content/Destinations.tsx";
+import * as $$$$$$7 from "./sections/content/Hero.tsx";
 import * as $$$$$$0 from "./sections/Footer.tsx";
 import * as $$$$$$1 from "./sections/Header/index.tsx";
 import * as $$$$$$2 from "./sections/ItWorks.tsx";
@@ -14,8 +15,9 @@ import * as $$$$$$4 from "./sections/UI/Spacing.tsx";
 
 const manifest = {
   "sections": {
-    "site/sections/content/Destinations.tsx": $$$$$$5,
-    "site/sections/content/Hero.tsx": $$$$$$6,
+    "site/sections/content/ContentIframe.tsx": $$$$$$5,
+    "site/sections/content/Destinations.tsx": $$$$$$6,
+    "site/sections/content/Hero.tsx": $$$$$$7,
     "site/sections/Footer.tsx": $$$$$$0,
     "site/sections/Header/index.tsx": $$$$$$1,
     "site/sections/ItWorks.tsx": $$$$$$2,
